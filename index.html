@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Doug Andrews Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,12 +20,169 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <div class="content-wrapper">
+      <nav>
+        <ul>
+          <li><a href="#about"></a>About Me</li>
+          <li><a href="#skills"></a>Skills</li>
+          <li><a href="#projects"></a>Projects</li>
+          <li><a href="#contact"></a>Contact</li>
+        </ul>
+      </nav>
+      <div class="home-title">
+        <h1>Hello, I'm Doug Andrews!</h1>
+        <h2>Front End Web Developer based in Vienna, Austria</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article class="portfolio">
+      <section id="work">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3> <!-- implement change to Projects -->
+          <div class="portfolio-wrapper">
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://ej7mwp.csb.app/" target="_blank"><img src="img/stickynotes-image.png"
+                    alt="Sticky Note Project"></a>
+              </figure>
+              <h4>Super Sticky Notes</h4>
+              <p class="project-description">Greenfield project creating a Sticky Notes web app. Uses
+                multiple
+                components to build the classic sticky note UI with the ability to add, edit, delete and
+                search
+                for notes.</p>
+              <p><span>Skills: </span>React, JSX, Components</p>
+              <p><span>Tools: </span>CodeSandbox, Props, State</p>
+              <a class="project-link" href="https://i4u8y.csb.app" target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://vbfdx3.csb.app/" target="_blank"><img src="img/name-tag-image.png"
+                    alt="Name Tag Generator"></a>
+              </figure>
+              <h4>Name Tag Generator</h4>
+              <p class="project-description">Players guess the word by entering one letter at a time. If
+                the player
+                guesses all the letters correctly before they use up their allotted guesses, they win!
+              </p>
+              <p><span>Skills: </span>JavaScript</p>
+              <p><span>Tools: </span>GitHub Pages, JSON</p>
+              <a class="project-link" href="https://vbfdx3.csb.app/" target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://sawtoothridge13.github.io/unplugged-retreat/" target="_blank"><img
+                    src="img/unplugged-image.png" alt="Unplugged Site"></a>
+              </figure>
+              <h4>Unplugged</h4>
+              <p class="project-description">A multi-page responsive website coded with Flexbox. This
+                versatile design has several sections, including a Cards design pattern, that can be
+                repurposed for
+                different sites.</p>
+              <p><span>Skills: </span>HTML, CSS, Flexbox</p>
+              <p><span>Tools: </span>Photoshop, Chrome DevTools, GitHub Pages</p>
+              <a class="project-link" href="https://sawtoothridge13.github.io/unplugged-retreat/" target="_blank">live
+                page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://sawtoothridge13.github.io/rogue-pickings-responsive/" target="_blank"><img
+                    src="img/rogue-image.png" alt="Rogue Pickings site"></a>
+              </figure>
+              <h4>Rogue Pickings</h4>
+              <p class="project-description">A simple home page perfect for a pop-up restaurant or food
+                truck. Originally a static website, I converted it into a responsive design using
+                Flexbox.</p>
+              <p><span>Skills: </span>HTML, CSS, Flexbox</p>
+              <p><span>Tools: </span>Photoshop, Chrome DevTools, GitHub Pages</p>
+              <a class="project-link" href="https://sawtoothridge13.github.io/rogue-pickings-responsive/"
+                target="_blank">live
+                page</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header">Skills</h3>
+          <h4>Developer Skills</h4>
+          <div class="language-wrapper">
+            <p class="skill">HTML and CSS</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">React</p>
+            <p class="skill">Responsive web development</p>
+            <p class="skill">WordPress</p>
+            <p class="skill">Git and GitHub</p>
+          </div>
+          <h4>Tech Stack</h4>
+          <div class="tool-wrapper">
+            <p class="tool">Chrome DevTools</p>
+            <p class="tool">GitHub Pages</p>
+            <p class="tool">Adobe Creative Suite</p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="img/profile-image.jpg" alt="" id="profile-image">
+          </figure>
+          <div class="about-info">
+            <h3>Hello, I’m Doug Andrews.</h3>
+            <h4>Front End Web Developer based in Vienna, Austria.</h4>
+            <p class="about-text">Here's some stuff about me. Been some places. Done some things. Quit some things.
+              Started some other things. I'll make it sound fancy later.
+            </p>
+            <p><span>Let's get this party started!</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Contact Me</h3>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h5 class="contact-title">Hire me</h5>
+          <p>+43 660 668 3555</p>
+          <p>sawtoothridge13@gmail.com</p>
+        </div>
+        <div class="contact-info follow-section">
+          <h5 class="contact-title">Follow me</h5>
+          <ul class="social-icons">
+            <li><a href="linkedin.com/in/doug-andrews-27b6a3260" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li><a href="https://github.com/sawtoothridge13" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h5 class="contact-title">Meet For Coffee</h5>
+          <p>Vienna, Austria</p>
+        </div>
+      </div>
+      <p>Copyright
+        <script>document.write(new Date().getFullYear())</script> | Doug Andrews
+      </p>
+    </div>
+  </footer>
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
