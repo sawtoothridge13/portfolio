@@ -306,7 +306,7 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #ffe8d6;
+    background-color: #EEEFDA;
   }
   
   header nav ul li {
@@ -384,7 +384,7 @@
   }
   
   #skills {
-    background-color: #FFE8D6;
+    background-color: #EEEFDA;
   }
   
   #skills h4 {
@@ -394,7 +394,7 @@
   
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: #F19494;
+    background-color: #B4C7D9;
     padding: 15px 0;
     margin: 20px 0;
   }
@@ -420,7 +420,7 @@
   
   /* -------------------- Base Header Styles -------------------- */
   footer {
-    background-color: #FFE8D6;
+    background-color: #EEEFDA;
   }
   
   footer .contact-wrapper {
@@ -933,7 +933,7 @@
   
     nav ul li a:hover,
     nav #contact-link:hover {
-      background-color: #F8C6C6;
+      background-color: #B4C7D9;
       color: #453E4F;
       padding: 10px 10px;
       border-radius: 30px;
